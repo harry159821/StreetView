@@ -1,0 +1,211 @@
+[{
+  "title": "校大门",
+  "location": [119.525273, 32.199919],
+  "type": "sphere",
+  "src": "data/ujs/2f8bc20ba2395ad2c03f7d9576fb4cdc24936b34.jpg",
+  "thumbs": "data/ujs/2f8bc20ba2395ad2c03f7d9576fb4cdc24936b34.thumb.jpg"
+}, {
+  "title": "图书馆",
+  "location": [119.517639, 32.204053],
+  "type": "sphere",
+  "src": "data/ujs/1a9100f21a3115dcb132df3bb6c9d1cc2cfaf333.jpg",
+  "thumbs": "data/ujs/1a9100f21a3115dcb132df3bb6c9d1cc2cfaf333.thumb.jpg"
+}, {
+  "title": "校史馆",
+  "location": [119.52648, 32.205708],
+  "type": "sphere",
+  "src": "data/ujs/14c60cada51a76f790c6d6f12090601b50d842a6.jpg",
+  "thumbs": "data/ujs/14c60cada51a76f790c6d6f12090601b50d842a6.thumb.jpg"
+}, {
+  "title": "体育馆",
+  "location": [119.526632, 32.200102],
+  "type": "sphere",
+  "src": "data/ujs/ed899f494b5a793af98f4bbc5380aee89d23d0bc.jpg",
+  "thumbs": "data/ujs/ed899f494b5a793af98f4bbc5380aee89d23d0bc.thumb.jpg"
+}, {
+  "title": "艺术学院",
+  "location": [119.516045, 32.20428],
+  "type": "sphere",
+  "src": "data/ujs/2fef5bdf427953db655c7b34a27aa08111e711ea.jpg",
+  "thumbs": "data/ujs/2fef5bdf427953db655c7b34a27aa08111e711ea.thumb.jpg"
+}, {
+  "title": "基础医学院",
+  "location": [119.519537, 32.20315],
+  "type": "sphere",
+  "src": "data/ujs/8d342faa5d025e03e987a5bf67a07ce446017e7e.jpg",
+  "thumbs": "data/ujs/8d342faa5d025e03e987a5bf67a07ce446017e7e.thumb.jpg"
+}, {
+  "title": "药学院",
+  "location": [119.519537, 32.20315],
+  "type": "sphere",
+  "src": "data/ujs/21eabd0c2fefbfb244a8b420012811dd957643c6.jpg",
+  "thumbs": "data/ujs/21eabd0c2fefbfb244a8b420012811dd957643c6.thumb.jpg"
+}, {
+  "title": "临床医学院",
+  "location": [119.519537, 32.20315],
+  "type": "sphere",
+  "src": "data/ujs/f115250eaad73dabfac7f5dd51766f2d2f40bca5.jpg",
+  "thumbs": "data/ujs/f115250eaad73dabfac7f5dd51766f2d2f40bca5.thumb.jpg"
+}, {
+  "title": "材料机械",
+  "location": [119.521133, 32.202397],
+  "type": "sphere",
+  "src": "data/ujs/76e119099a9c0a4aa5459f0bb591cd345a8f585d.jpg",
+  "thumbs": "data/ujs/76e119099a9c0a4aa5459f0bb591cd345a8f585d.thumb.jpg"
+}, {
+  "title": "食品学院",
+  "location": [119.5248, 32.205632],
+  "type": "sphere",
+  "src": "data/ujs/b86233320f4f6717998c02a9e38c9b1aba5d478c.jpg",
+  "thumbs": "data/ujs/b86233320f4f6717998c02a9e38c9b1aba5d478c.thumb.jpg"
+}, {
+  "title": "环境学院",
+  "location": [119.525621, 32.205082],
+  "type": "sphere",
+  "src": "data/ujs/00ecaa920bbd6062442ac015acd57a3145c3f084.jpg",
+  "thumbs": "data/ujs/00ecaa920bbd6062442ac015acd57a3145c3f084.thumb.jpg"
+}, {
+  "title": "京江学院",
+  "location": [119.515543, 32.21136],
+  "type": "sphere",
+  "src": "data/ujs/52ee5a4be333a5aee97508dd4b5fe2670db95ab0.jpg",
+  "thumbs": "data/ujs/52ee5a4be333a5aee97508dd4b5fe2670db95ab0.thumb.jpg"
+}, {
+  "title": "三江楼",
+  "location": [119.525072, 32.201927],
+  "type": "sphere",
+  "src": "data/ujs/2e6fde494c3e612892fc4dc92d0756f799fa0d03.jpg",
+  "thumbs": "data/ujs/2e6fde494c3e612892fc4dc92d0756f799fa0d03.thumb.jpg"
+}, {
+  "title": "三山楼",
+  "location": [119.522, 32.202021],
+  "type": "sphere",
+  "src": "data/ujs/fdf24178a9079dee7d7f9fdb3308d1622c055035.jpg",
+  "thumbs": "data/ujs/fdf24178a9079dee7d7f9fdb3308d1622c055035.thumb.jpg"
+}, {
+  "title": "主楼",
+  "location": [119.525602, 32.204549],
+  "type": "sphere",
+  "src": "data/ujs/9df9105a3a7f320e1f0ca5616abec646152fc048.jpg",
+  "thumbs": "data/ujs/9df9105a3a7f320e1f0ca5616abec646152fc048.thumb.jpg"
+}, {
+  "title": "行政一号楼",
+  "location": [32.203554, 119.525477],
+  "type": "sphere",
+  "src": "data/ujs/8ba9d673f6908e3c3728eacd460713b91433b954.jpg",
+  "thumbs": "data/ujs/8ba9d673f6908e3c3728eacd460713b91433b954.thumb.jpg"
+}, {
+  "title": "专家楼",
+  "location": [32.206304, 119.527247],
+  "type": "sphere",
+  "src": "data/ujs/0e15ce8da37d17fa38c22264c265e5a699fb47e3.jpg",
+  "thumbs": "data/ujs/0e15ce8da37d17fa38c22264c265e5a699fb47e3.thumb.jpg"
+}, {
+  "title": "教工之家",
+  "location": [119.529564, 32.20187],
+  "type": "sphere",
+  "src": "data/ujs/706586217858d50d532d8218e3022076cfd5931c.jpg",
+  "thumbs": "data/ujs/706586217858d50d532d8218e3022076cfd5931c.thumb.jpg"
+}, {
+  "title": "四食堂",
+  "location": [32.209177, 119.520484],
+  "type": "sphere",
+  "src": "data/ujs/f76168af5731e1be828b4a9178fc4c217d764668.jpg",
+  "thumbs": "data/ujs/f76168af5731e1be828b4a9178fc4c217d764668.thumb.jpg"
+}, {
+  "title": "六食堂",
+  "location": [32.21266, 119.518849],
+  "type": "sphere",
+  "src": "data/ujs/2c3bebf02c6cb66e36d364fa9daf0da9d769dd11.jpg",
+  "thumbs": "data/ujs/2c3bebf02c6cb66e36d364fa9daf0da9d769dd11.thumb.jpg"
+}, {
+  "title": "学生区",
+  "location": [119.518519,32.208147],
+  "type": "sphere",
+  "src": "data/ujs/d94614be3cdcd98e500720e2be9298faf2b28984.jpg",
+  "thumbs": "data/ujs/d94614be3cdcd98e500720e2be9298faf2b28984.thumb.jpg"
+}, {
+  "title": "东山操场",
+  "location": [32.202729, 119.527319],
+  "type": "sphere",
+  "src": "data/ujs/69b824935fe4277561fea5b271d9e6e6913a78cf.jpg",
+  "thumbs": "data/ujs/69b824935fe4277561fea5b271d9e6e6913a78cf.thumb.jpg"
+}, {
+  "title": "西山操场",
+  "location": [32.207221, 119.521614],
+  "type": "sphere",
+  "src": "data/ujs/74bc7f4ad2535d8af6f61094c63a01345f689482.jpg",
+  "thumbs": "data/ujs/74bc7f4ad2535d8af6f61094c63a01345f689482.thumb.jpg"
+}, {
+  "title": "京江操场",
+  "location": [32.210772,119.515721],
+  "type": "sphere",
+  "src": "data/ujs/d71c82e3fbdc3ed76f973a2954443fc543d4d889.jpg",
+  "thumbs": "data/ujs/d71c82e3fbdc3ed76f973a2954443fc543d4d889.thumb.jpg"
+}, {
+  "title": "校园风景一",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/fecff91aa096f482e498ea5dab07deb680dd5aef.jpg",
+  "thumbs": "data/ujs/fecff91aa096f482e498ea5dab07deb680dd5aef.thumb.jpg"
+}, {
+  "title": "校园风景二",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/b96239674ded5a098fa3392cfadff49c00ce6c7b.jpg",
+  "thumbs": "data/ujs/b96239674ded5a098fa3392cfadff49c00ce6c7b.thumb.jpg"
+}, {
+  "title": "校园风景三",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/f3f1036103d8a26f05a11e4aa2002b334fd55a82.jpg",
+  "thumbs": "data/ujs/f3f1036103d8a26f05a11e4aa2002b334fd55a82.thumb.jpg"
+}, {
+  "title": "校园风景四",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/ffed18cbec8af5335ad101cae604d07149cca574.jpg",
+  "thumbs": "data/ujs/ffed18cbec8af5335ad101cae604d07149cca574.thumb.jpg"
+}, {
+  "title": "校园风景五",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/668df3b725752027327a5c22eba94a30e5d63963.jpg",
+  "thumbs": "data/ujs/668df3b725752027327a5c22eba94a30e5d63963.thumb.jpg"
+}, {
+  "title": "校园风景六",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/4c55225ef774311f8743741daef9f16fd5466419.jpg",
+  "thumbs": "data/ujs/4c55225ef774311f8743741daef9f16fd5466419.thumb.jpg"
+}, {
+  "title": "校园风景七",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/19fdb8eaa9c92bb52270c66242476b7f72ff600e.jpg",
+  "thumbs": "data/ujs/19fdb8eaa9c92bb52270c66242476b7f72ff600e.thumb.jpg"
+}, {
+  "title": "京江学院西侧",
+  "location": [],
+  "type": "sphere",
+  "src": "data/ujs/0bda70919a1b473ce007dfda70f481d8020eaaa4.jpg",
+  "thumbs": "data/ujs/0bda70919a1b473ce007dfda70f481d8020eaaa4.thumb.jpg"
+}, {
+  "title": "计算机学院和电气学院",
+  "location": [119.516055,32.203119],
+  "type": "sphere",
+  "src": "data/ujs/1cb9f73d3a5e154a170163cc5fb7703109de38ee.jpg",
+  "thumbs": "data/ujs/1cb9f73d3a5e154a170163cc5fb7703109de38ee.thumb.jpg"
+}, {
+  "title": "三江楼门厅",
+  "location": [119.516055,32.203119],
+  "type": "sphere",
+  "src": "data/ujs/25c11c01ef3359cebb63b3408d146838cbf491f2.jpg",
+  "thumbs": "data/ujs/25c11c01ef3359cebb63b3408d146838cbf491f2.thumb.jpg"
+}, {
+  "title": "研究生院和化工学院",
+  "location": [119.514931,32.203295],
+  "type": "sphere",
+  "src": "data/ujs/44332fc30eba340b832cbaa53e862b0fda84178d.jpg",
+  "thumbs": "data/ujs/44332fc30eba340b832cbaa53e862b0fda84178d.thumb.jpg"
+}]
