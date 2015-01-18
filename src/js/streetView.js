@@ -103,6 +103,7 @@ $(function() {
     camera.updateProjectionMatrix();
 
     renderer.setSize(w, h);
+    render();
     
   }, false);
 
