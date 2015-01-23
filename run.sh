@@ -2,9 +2,9 @@
 #
 if ! type "npm" > /dev/null; then
 	echo node.js or io.js runtime not found. Use python instead.
-	cd src 
+	pushd src 
 	python -m http.server || python -m SimpleHTTPServer
-	cd ..
+	popd
 	exit
 fi
 

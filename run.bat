@@ -5,6 +5,6 @@ exit
 
 :PY
 	echo "npm not found, try python as a http server..."
-	cd src
+	pushd src
 	python -m http.server || python -m SimpleHTTPServer
-	cd ..
+	popd
