@@ -1,33 +1,46 @@
 $(function() {
+  // init mapbox
+  L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWNvbG9yaXN0IiwiYSI6Ik9qT0hDa1EifQ.jQqEGsy46F77OL0m7E6xIA';
 
-  // load baidu map
-  var map = new BMap.Map("baidu-map", {
-    minZoom: 16
+  var transform = function(point) {
+    var magic = Math.PI * 3000.0 / 180.0;
+    var x = point[0] - 0.0065,
+      y = point[1] - 0.006;
+    var z = Math.sqrt(x * x + y * y) - 0.00002 * Math.sin(y * magic);
+    var theta = Math.atan2(y, x) - 0.000003 * Math.cos(x * magic);
+    var lat = z * Math.sin(theta);
+    var lon = z * Math.cos(theta);
+    return GCJ02.gcj2wgsEx(lat, lon);
+  };
+
+  var northWest = [119.506633, 32.218283],
+    southEast = [119.536241, 32.197997],
+    center = [119.520705, 32.205663];
+
+  northWest = transform(northWest);
+  southEast = transform(southEast);
+
+  var bounds = L.latLngBounds(northWest, southEast);
+  var map = L.mapbox.map('map', 'codecolorist.le813p3d', {
+    // maxBounds: bounds,
+    center: transform(center),
+    // minZoom: 15
   });
-  map.centerAndZoom(new BMap.Point(119.520705, 32.205663), 17);
-  map.enableScrollWheelZoom(true);
 
-  var bound = new BMap.Bounds(new BMap.Point(119.506633, 32.218283), new BMap.Point(119.536241, 32.197997));  
-  BMapLib.AreaRestriction.setBounds(map, bound);
-
+  // show pins
   $.getJSON('data/scenes.json', function(data) {
     var html = data.map(function(e) {
       // add marker
-      var point = new BMap.Point(e.location[0], e.location[1]);
-      var infoWindow = new BMap.InfoWindow('', {
-        title: e.title
-      });
-      var marker = new BMap.Marker(point, {
-        title: e.title
-      });
-      marker.addEventListener('click', function() {
-        loadScene(e.src);
-      });
-      map.addOverlay(marker);
+      var innerHTML = '<a class="place" href="' + e.src + '"><img src="' + e.thumbs +
+        '"><span>' + e.title + '</span></a>';
 
-      //
-      return '<li><a href="' + e.src + '"><img src="' + e.thumbs +
-        '"><span>' + e.title + '</span></a></li>';
+      if (e.location && e.location.length) {
+        // console.log(e.location, transform(e.location));
+        L.marker(transform(e.location))
+          .bindPopup(innerHTML)
+          .addTo(map);
+      }
+      return '<li>' + innerHTML + '</li>';
     });
 
     $('#gallery-list').html(html).on('click', 'a', function(e) {
@@ -109,7 +122,7 @@ $(function() {
 
 
   function loadScene(src) {
-    $('#baidu-map').fadeOut();
+    $('#map').fadeOut();
 
     var img = new Image();
     img.onload = function() {

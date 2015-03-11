@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,user-scalable=yes,minimum-scale=1.0,maximum-scale=1.0">
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -19,7 +20,7 @@
   <main class="stage">
     <div class="inner">
       <div id="viewport" class="full"></div>
-      <div id="baidu-map" class="full"></div>
+      <div id="map" class="full"></div>
 
       <div id="state" class="status">
         <div id="return">地图</div>
@@ -34,21 +35,16 @@
     <footer>&copy; 2015 University of Jiangsu</footer>
   </section>
 
-  <script type="text/html" id="template-popup">
-
-  </script>
-
   <script type="text/javascript" src="js/vendor/three.js"></script>
   <script type="text/javascript" src="js/vendor/CSS3DRenderer.js"></script>
   <script type="text/javascript" src="js/vendor/DeviceOrientationController.js"></script>
   <script type="text/javascript" src="js/vendor/jquery.js"></script>
+  <script type="text/javascript" src='js/vendor/WGS84_GCJ02.js'></script>
+
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
 
   <script type="text/javascript" src="js/scene.js"></script>
   <script type="text/javascript" src="js/streetView.js"></script>
-
-  <script type="text/javascript" src="http://api.map.baidu.com/api?ak=cI0GYsyQO0HTinLLlVa5Bxci&amp;v=1.5"></script>
-
-  <script type="text/javascript" src="http://api.map.baidu.com/library/AreaRestriction/1.2/src/AreaRestriction_min.js"></script>
 
 
 </body>
