@@ -90,13 +90,13 @@
   "thumbs": "data/ujs/9df9105a3a7f320e1f0ca5616abec646152fc048.thumb.jpg"
 }, {
   "title": "行政一号楼",
-  "location": [32.203554, 119.525477],
+  "location": [119.525477, 32.203554],
   "type": "sphere",
   "src": "data/ujs/8ba9d673f6908e3c3728eacd460713b91433b954.jpg",
   "thumbs": "data/ujs/8ba9d673f6908e3c3728eacd460713b91433b954.thumb.jpg"
 }, {
   "title": "专家楼",
-  "location": [32.206304, 119.527247],
+  "location": [119.527247, 32.206304],
   "type": "sphere",
   "src": "data/ujs/0e15ce8da37d17fa38c22264c265e5a699fb47e3.jpg",
   "thumbs": "data/ujs/0e15ce8da37d17fa38c22264c265e5a699fb47e3.thumb.jpg"
@@ -108,37 +108,37 @@
   "thumbs": "data/ujs/706586217858d50d532d8218e3022076cfd5931c.thumb.jpg"
 }, {
   "title": "四食堂",
-  "location": [32.209177, 119.520484],
+  "location": [119.520484, 32.209177],
   "type": "sphere",
   "src": "data/ujs/f76168af5731e1be828b4a9178fc4c217d764668.jpg",
   "thumbs": "data/ujs/f76168af5731e1be828b4a9178fc4c217d764668.thumb.jpg"
 }, {
   "title": "六食堂",
-  "location": [32.21266, 119.518849],
+  "location": [119.518849, 32.21266],
   "type": "sphere",
   "src": "data/ujs/2c3bebf02c6cb66e36d364fa9daf0da9d769dd11.jpg",
   "thumbs": "data/ujs/2c3bebf02c6cb66e36d364fa9daf0da9d769dd11.thumb.jpg"
 }, {
   "title": "学生区",
-  "location": [119.518519,32.208147],
+  "location": [119.518519, 32.208147],
   "type": "sphere",
   "src": "data/ujs/d94614be3cdcd98e500720e2be9298faf2b28984.jpg",
   "thumbs": "data/ujs/d94614be3cdcd98e500720e2be9298faf2b28984.thumb.jpg"
 }, {
   "title": "东山操场",
-  "location": [32.202729, 119.527319],
+  "location": [119.527319, 32.202729],
   "type": "sphere",
   "src": "data/ujs/69b824935fe4277561fea5b271d9e6e6913a78cf.jpg",
   "thumbs": "data/ujs/69b824935fe4277561fea5b271d9e6e6913a78cf.thumb.jpg"
 }, {
   "title": "西山操场",
-  "location": [32.207221, 119.521614],
+  "location": [119.521614, 32.207221],
   "type": "sphere",
   "src": "data/ujs/74bc7f4ad2535d8af6f61094c63a01345f689482.jpg",
   "thumbs": "data/ujs/74bc7f4ad2535d8af6f61094c63a01345f689482.thumb.jpg"
 }, {
   "title": "京江操场",
-  "location": [32.210772,119.515721],
+  "location": [119.515721, 32.210772],
   "type": "sphere",
   "src": "data/ujs/d71c82e3fbdc3ed76f973a2954443fc543d4d889.jpg",
   "thumbs": "data/ujs/d71c82e3fbdc3ed76f973a2954443fc543d4d889.thumb.jpg"
@@ -192,7 +192,7 @@
   "thumbs": "data/ujs/0bda70919a1b473ce007dfda70f481d8020eaaa4.thumb.jpg"
 }, {
   "title": "计算机学院和电气学院",
-  "location": [119.516055,32.203119],
+  "location": [119.516055, 32.203119],
   "type": "sphere",
   "src": "data/ujs/1cb9f73d3a5e154a170163cc5fb7703109de38ee.jpg",
   "thumbs": "data/ujs/1cb9f73d3a5e154a170163cc5fb7703109de38ee.thumb.jpg"

@@ -25,13 +25,18 @@ header {
 
 section {
   background: rgba(0, 0, 0, 0.85);
-  color: #fff;
-  position: absolute;
-  height: 160px;
-  padding: 10px;
-  left: 0;
-  right: 0;
   bottom: 0;
+  color: #fff;
+  height: 160px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  transition: height 0.2s ease;
+}
+
+section.off {
+  height: 60px;
 }
 
 footer {
@@ -42,7 +47,7 @@ footer {
 }
 
 .stage {
-  bottom: 160px;
+  bottom: 80px;
   position: absolute;
   top: 40px;
   left: 0;
@@ -65,10 +70,11 @@ footer {
   padding: 0;
   margin: 0;
   overflow: auto;
+  transition: height 0.2s ease;
 }
 
-.gallery.on {
-
+.gallery.off {
+  height: 40px;
 }
 
 .gallery > li {
@@ -81,13 +87,25 @@ footer {
   width: 120px;
 }
 
-.gallery > li > a {
+a.place {
+  color: #eee;
   display: block;
+  height: 100px;
+  overflow: hidden;
   position: relative;
+  width: 120px;
+}
+
+a.place:hover {
   color: #fff;
 }
 
-.gallery > li > a > span {
+a.place > img {
+  width: 120px;
+  height: 100px;
+}
+
+a.place > span {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
   display: block;
@@ -105,4 +123,8 @@ footer {
   height: 120px;
   width: 180px;
   background: rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
 }
