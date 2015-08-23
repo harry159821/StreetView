@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "江苏大学校园全景",
   "main": "server.js",
-  "dependencies": {
-    "connect-livereload": "^0.5.2"
-  },
   "devDependencies": {
     "connect": "^3.3.4",
     "connect-livereload": "^0.5.2",
